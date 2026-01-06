@@ -1,21 +1,37 @@
-需要安装pytorch与numpy；
+# Time Series Forecasting
 
-从[[link]](https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy)得到数据集，请将数据集放在dataset文件夹内；这里我们需要对整理数据集的Autoformer项目组表达感谢，他们的项目界面为https://github.com/thuml/Autoformer?tab=readme-ov-file
+This project implements time series forecasting models using PyTorch and NumPy.
 
-直接运行每个模型对应的.sh批处理文件即可得到如下所示的实验结果：
+## Setup
 
-
-# Experiment Reproduction Guide
-
-This repository provides scripts to reproduce the experimental results of several time series forecasting models. The dataset preprocessing and organization follow the excellent work from the **Autoformer** project.
-
-## 📦 Dependencies
-
-Before running the experiments, please ensure the following Python packages are installed:
-
-- PyTorch
-- NumPy
-
-You can install them via pip:
+### Prerequisites
+- Install PyTorch and NumPy:
 ```bash
 pip install torch numpy
+```
+
+### Dataset
+1. Download the dataset from [[link]](https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy)
+2. Place the dataset in the `dataset` folder
+
+**Acknowledgement**: We would like to thank the Autoformer project team for organizing and providing the dataset. Their project is available at: https://github.com/thuml/Autoformer?tab=readme-ov-file
+
+## Usage
+
+To run the experiments, simply execute the corresponding `.sh` batch file for each model. This will reproduce the experimental results as shown below:
+
+```bash
+# Example - run the specific model script
+./run_model.sh
+```
+
+## Experimental Results
+
+The results obtained from running the models will be displayed in the format shown below:
+
+[Experimental results will be displayed here]
+
+## Notes
+- Ensure all dependencies are installed before running the scripts
+- Verify the dataset is correctly placed in the `dataset` folder
+- Each model has its own batch file for easy execution
