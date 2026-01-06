@@ -11,10 +11,9 @@ pip install torch numpy
 ```
 
 ### Dataset
-1. Download the dataset from [[link]](https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy)
-2. Place the dataset in the `dataset` folder
+To comply with double-blind review requirements, direct dataset links are not provided during the review phase. The datasets used in our experiments are widely adopted in time series forecasting research and can be easily obtained from public open-source platforms.
 
-**Acknowledgement**: We would like to thank the Autoformer project team for organizing and providing the dataset. Their project is available at: https://github.com/thuml/Autoformer?tab=readme-ov-file
+Place the obtained dataset files in the `dataset` folder to run the experiments.
 
 ## Usage
 
