@@ -9,7 +9,8 @@ data_dict = {
     'electricity': Dataset_Custom,
     'exchange_rate': Dataset_Custom,
     'traffic': Dataset_Custom,
-    'weather': Dataset_Custom
+    'weather': Dataset_Custom,
+    'ILI': Dataset_Custom
 }
 
 
